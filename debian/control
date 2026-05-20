@@ -1,0 +1,46 @@
+Source: philsf-likes-sysadmin
+Section: metapackages
+Priority: optional
+Maintainer: Felipe Figueiredo <philsf79@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+Standards-Version: 4.6.2
+# Homepage: <insert the upstream URL, if relevant>
+Vcs-Browser: https://code.launchpad.net/~philsf/+git/philsf-likes-sysadmin
+Vcs-Git: https://git.launchpad.net/~philsf/+git/philsf-likes-sysadmin
+
+Package: philsf-likes-sysadmin
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+Recommends:
+ acpi,
+ btop | htop,
+ fwupd | fwupdate,
+ smbios-utils | libsmbios-bin,
+ i8kutils,
+ lm-sensors,
+ locate | plocate,
+ most,
+ nvme-cli,
+ rsync,
+ smbclient,
+ samba,
+ smartmontools,
+ hdparm,
+ nvme-cli,
+ tofrodos | dos2unix,
+ thermald,
+Suggests:
+ gnome-system-tools,
+ nmap,
+ forensics-all,
+ hardinfo,
+ harden-doc,
+Description: philsf's system administration toolkit
+ Metapackage for core maintenance and hardware diagnostic tools.
+ It enables a core environment with tools hardware diagnostic, 
+ and system management. Local sysadmin tools are Recommended,
+ Network sysadmin tools are Suggested.
