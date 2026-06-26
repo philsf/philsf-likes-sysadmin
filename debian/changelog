@@ -1,3 +1,9 @@
+philsf-likes-sysadmin (0.2.1) resolute; urgency=medium
+
+  * Added (Recommends): net-tools, iotop, ethtool, tcpdump, ntfs-3g, sdparm,
+
+ -- Felipe Figueiredo <philsf79@gmail.com>  Fri, 26 Jun 2026 05:58:21 -0300
+
 philsf-likes-sysadmin (0.2.0) resolute; urgency=medium
 
   * INFRA: upgrade control and rules to new metapackage structure
