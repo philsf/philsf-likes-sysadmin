@@ -1,8 +1,8 @@
-philsf-likes-sysadmin (0.2.1) UNRELEASED; urgency=medium
+philsf-likes-sysadmin (0.2.1) resolute; urgency=medium
 
   * Added (Recommends): net-tools, iotop, ethtool, tcpdump, ntfs-3g, sdparm,
 
- -- Felipe Figueiredo <philsf79@gmail.com>  Thu, 25 Jun 2026 22:06:08 -0300
+ -- Felipe Figueiredo <philsf79@gmail.com>  Fri, 26 Jun 2026 05:58:21 -0300
 
 philsf-likes-sysadmin (0.2.0) resolute; urgency=medium
 
